@@ -8,7 +8,7 @@ val scalaTestArtifact = "org.scalatest" %% "scalatest" % "3.2.+" % Test
 val telepathyDep = "com.salesforce.mce" %% "telepathy" % "1.5.0"
 val typesafeConfigDep = "com.typesafe" % "config" % "1.4.2"
 val scoptDep = "com.github.scopt" %% "scopt" % "4.1.0"
-val scalaComatDep =  "org.scala-lang.modules" %% "scala-collection-compat" % "2.8.1"
+val scalaComatDep =  "org.scala-lang.modules" %% "scala-collection-compat" % "2.9.0"
 
 lazy val publishSettings = Seq(
   publishMavenStyle := true,
